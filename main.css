@@ -1,0 +1,22 @@
+button {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: white;
+  border: 1px solid #333333;
+  margin: 1px 0 1px 0;
+  font-size: 20px;
+  font-family: monospace;
+}
+
+.ports-list {
+  width: 200px;
+  display: inline-block;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  height: 300px;
+  vertical-align: top;
+}

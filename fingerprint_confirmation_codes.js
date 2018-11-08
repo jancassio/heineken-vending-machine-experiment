@@ -1,0 +1,23 @@
+var ConfirmationCode = [];
+
+ConfirmationCode[0x00] = "commad execution complete";
+ConfirmationCode[0x01] = "error when receiving data package";
+ConfirmationCode[0x02] = "no finger on the sensor";
+ConfirmationCode[0x03] = "fail to enroll the finger";
+ConfirmationCode[0x06] = "fail to generate character file due to the over-disorderly fingerprint image";
+ConfirmationCode[0x07] = "fail to generate character file due to lackness of character point or over-smallness of fingerprint image 7. 08h: finger doesn¡t match";
+ConfirmationCode[0x09] = "fail to find the matching finger";
+ConfirmationCode[0x0A] = "fail to combine the character files";
+ConfirmationCode[0x0B] = "addressing PageID is beyond the finger library";
+ConfirmationCode[0x0C] = "error when reading template from library or the template is invalid";
+ConfirmationCode[0x0D] = "error when uploading template";
+ConfirmationCode[0x0E] = "Module can¡t receive the following data packages. 14. 0Fh: error when uploading image";
+ConfirmationCode[0x10] = "fail to delete the template";
+ConfirmationCode[0x11] = "fail to clear finger library";
+ConfirmationCode[0x15] = "fail to generate the image for the lackness of valid primary image";
+ConfirmationCode[0x18] = "error when writing flash";
+ConfirmationCode[0x19] = "No definition error";
+ConfirmationCode[0x1A] = "invalid register number";
+ConfirmationCode[0x1B] = "incorrect configuration of register";
+ConfirmationCode[0x1C] = "wrong notepad page number";
+ConfirmationCode[0x1D] = "fail to operate the communication port others: system reserved";

@@ -1,0 +1,20 @@
+{
+  "name": "Heineken - Vending Machine Connect",
+  "description": "Extensão para conexão com leitor biométrico.",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "permissions": [
+    "serial"
+  ],
+
+  "app": {
+    "background": {
+      "scripts": ["launch.js"]
+    }
+  },
+  "icons": {
+    "16": "16.png",
+    "128": "128.png"
+  }
+}
