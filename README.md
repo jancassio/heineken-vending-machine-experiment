@@ -1,11 +1,14 @@
 # Heineken Vending Machine Reader Chrome Extensions
 
-## Please, read it before first
+## Please, read it before.
 
-I've made this project a couple years ago and I had a bad time looking for solutions like that. So I created a binary api to interact with Chrome and I think almost everything still working.
+This is part of a prototype I had done a couple of years ago and, I spent a long time looking for solutions like that.
 
-This was a part of an prototype I had done and it's the only interesting part of the project I can share.
+This is a small library that allows to Chrome extension to connect and interact with a fingertip sensor. At all, this creates a binary socket and allows Chrome to communicate with some connected fingertip sensor.
 
+Look, probably it will not work with any fingertip sensor, because every manufacturer has own proper interface.
+
+Maybe it helps you to implement your own binary socket interface to interact with external hardware in Chrome extensions 🙂
 
 ## LICENSE
 
